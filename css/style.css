@@ -4,9 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+	font-family: 'DungGeunMo';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	margin : 0;
-	font-family: "PyeongChang-Regular";
+	font-family: "DOSGothic";
 }
 a{
 	color : black;
@@ -15,29 +27,28 @@ a{
 h1{
 	background-color: rgb(195, 195, 250);
 	font-size:45px;
-	text-align:center;
-	border-bottom : 1px solid gray;
+	text-align:left;
 	margin:0 auto;
 	padding:20px;
 }
 h1 a {
 	color :#6844c9;
-	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family:'DungGeunMo';
 }
 h3{
+	font-size: 20pt;
 	text-align: center;
 	margin : 0;
 	padding : 0;
 }
 #grid{
 	display:grid;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 180px 1fr;
 	height : 100vh;
 }
 #grid #index{
 	background-color: rgb(223, 223, 248);
-	border-right : 1px solid gray;
-	width : 200px;
+	width : 180px;
 	margin : 0;
 	padding : 20px;
 }
@@ -51,11 +62,12 @@ h3{
 	padding : 15px 0;
 }
 #grid #index ul li{
-	font-size: 12pt;
+	font-size: 15pt;
 	text-align: left;
 	padding : 10px 0 0 15px;
 }
 #article{
+	font-family: "PyeongChang-Regular";
 	padding-left : 40px;
 	width : 96.6%;
 	margin : 0;
@@ -77,10 +89,14 @@ table td{
 	border-radius: 20px;
 	background-color: rgb(94, 87, 199);
 	font-weight: bold;
+	font-size: 13pt;
 	padding: 10px;
 }
 td a{
 	color : #ffffff;
+}
+p, li{
+	font-size: 13pt;
 }
 @media(max-width:500px){
 	#grid{

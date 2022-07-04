@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'PyeongChang-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Regular.woff2') format('woff2');
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,9 +16,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	margin : 0;
-	font-family: "DOSGothic";
+	font-family: 'NEXON Lv1 Gothic OTF';
 }
 a{
 	color : black;
@@ -42,6 +48,7 @@ h3{
 	padding : 0;
 }
 #grid{
+	font-family: "DOSGothic";
 	display:grid;
 	grid-template-columns: 180px 1fr;
 	height : 100vh;
@@ -67,7 +74,6 @@ h3{
 	padding : 10px 0 0 15px;
 }
 #article{
-	font-family: "PyeongChang-Regular";
 	padding-left : 40px;
 	width : 96.6%;
 	margin : 0;
@@ -88,7 +94,7 @@ table td{
 	text-align: center;
 	border-radius: 20px;
 	background-color: rgb(94, 87, 199);
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 13pt;
 	padding: 10px;
 }
@@ -97,6 +103,7 @@ td a{
 }
 p, li{
 	font-size: 13pt;
+	line-height: 130%;
 }
 @media(max-width:500px){
 	#grid{

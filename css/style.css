@@ -31,13 +31,13 @@ h3{
 }
 #grid{
 	display:grid;
-	grid-template-columns: 150px 1fr;
+	grid-template-columns: 200px 1fr;
 	height : 100vh;
 }
 #grid #index{
 	background-color: rgb(223, 223, 248);
 	border-right : 1px solid gray;
-	width : 150px;
+	width : 200px;
 	margin : 0;
 	padding : 20px;
 }
@@ -69,16 +69,18 @@ h3{
 	
 }
 table{
-	border-spacing: 20px;
+	border-spacing: 30px;
 	margin:20px auto;
-	
 }
 table td{
+	text-align: center;
 	border-radius: 20px;
-	background-color: rgb(253, 255, 146);
+	background-color: rgb(94, 87, 199);
 	font-weight: bold;
-	color : #ffffff;
 	padding: 10px;
+}
+td a{
+	color : #ffffff;
 }
 @media(max-width:500px){
 	#grid{

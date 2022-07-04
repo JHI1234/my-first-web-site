@@ -76,6 +76,7 @@ table{
 table td{
 	border-radius: 20px;
 	background-color: rgb(253, 255, 146);
+	font-weight: bold;
 	color : #ffffff;
 	padding: 10px;
 }

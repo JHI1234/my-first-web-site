@@ -73,7 +73,7 @@ h3{
 #grid #index ul li{
 	font-size: 15pt;
 	text-align: left;
-	padding : 10px 0 0 15px;
+	padding : 10px 0 0 10px;
 }
 #article{
 	padding-left : 40px;
@@ -86,7 +86,6 @@ h3{
 	padding : 30px 0;
 	display : block;
 	margin : 0 auto;
-	
 }
 table{
 	border-spacing: 30px;
@@ -97,7 +96,7 @@ table td{
 	border-radius: 20px;
 	background-color: rgba(211, 208, 255, 0.76);
 	font-weight: normal;
-	font-size: 15pt;
+	font-size: 13pt;
 	padding: 20px;
 }
 ul a:hover{

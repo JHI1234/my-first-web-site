@@ -11,8 +11,8 @@
 	font-style: normal;
 }
 @font-face {
-    font-family: 'DOSGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +39,7 @@ h1{
 }
 h1 a {
 	color :#6740d1;
-	font-family:'DungGeunMo';
+	font-family:"yg-jalnan";
 }
 li a{
 	font-size: 13pt;
@@ -64,7 +64,7 @@ h3{
 #grid #index ul{
 	background-color: #ffffff;
 	text-align: center;
-	border : 5px solid darkgray;
+	border : 7px solid darkgray;
 	border-radius: 10px;
 	list-style:none;
 	margin : 10px;

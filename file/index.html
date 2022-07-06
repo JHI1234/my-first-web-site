@@ -10,30 +10,26 @@
 	<div id="grid">
 		<div id="index">
 			<h3 class="i_title"><a href="welcome.html" target="disp-area">Welcome👋</a></h3>
-			<ul>
+			<ul class="i_menu">
 				<h3 class="i_title"><a href="https://cafe.naver.com/codeuniv" target="_blank">파이썬 스터디</h3>
-				<li><a href="python/p1.html" target="disp-area">과제 목록</a>
-					<a id="menu" href="#" style="font-size:10pt;">◀️</a>
-				<ul id="task" style="border:none; list-style:disc; margin:0; margin-left:50px; padding : 0;">
-					<li><a href="python/pp0.html" target="disp-area">0일차 ✔</a></li>
-					<li><a href="python/pp1.html" target="disp-area">1일차 ✔</a></li>
-					<li><a href="python/pp2.html" target="disp-area">2일차 ✔</a></li>
-					<li><a href="python/pp3.html" target="disp-area">3일차 ✔</a></li>
-					<li><a href="python/pp4.html" target="disp-area">4일차 </a></li>
-					<li><a href="python/pp5.html" target="disp-area">5일차 </a></li>
-					<li><a href="python/pp6.html" target="disp-area">6일차 </a></li>
-					<li><a href="python/pp7.html" target="disp-area">7일차 </a></li>
-					<li><a href="python/pp8.html" target="disp-area">8일차 </a></li>
-					<li><a href="python/pp9.html" target="disp-area">9일차 </a></li>
-					<li><a href="python/pp10.html" target="disp-area">10일차 </a></li>
-					<li><a href="python/pp11.html" target="disp-area">11일차 </a></li>
-					<li><a href="python/pp12.html" target="disp-area">12일차 </a></li>
-					<li><a href="python/pp13.html" target="disp-area">13일차 </a></li>
-					<li><a href="python/pp14.html" target="disp-area">14일차 </a></li>
-					<li><a href="python/pp15.html" target="disp-area">15일차 </a></li>
+				<li><a style="margin-left:20px; font-weight:bold; font-size:11pt;" href="python/p1.html" target="disp-area">과제 목록</a> <a id="menu" href="#" style="font-size:10pt;">🔽</a>
+				<ul id="task">
+					<div id="done">
+						<li><a href="python/pp0.html" target="disp-area">0일차</a><a href="python/pp1.html" target="disp-area">1일차</a></li>
+						<li><a href="python/pp2.html" target="disp-area">2일차</a><a href="python/pp3.html" target="disp-area">3일차</a></li>
+	
+					</div>
+					<!--
+					<li><a href="python/pp4.html" target="disp-area">4일차</a><a href="python/pp5.html" target="disp-area">5일차 </a></li>
+					<li><a href="python/pp6.html" target="disp-area">6일차</a><a href="python/pp7.html" target="disp-area">7일차 </a></li>
+					<li><a href="python/pp8.html" target="disp-area">8일차</a><a href="python/pp9.html" target="disp-area">9일차 </a></li>
+					<li><a href="python/pp11.html" target="disp-area">11일차</a><a href="python/pp10.html" target="disp-area">10일차 </a></li>
+					<li><a href="python/pp12.html" target="disp-area">12일차</a><a href="python/pp13.html" target="disp-area">13일차 </a></li>
+					<li><a href="python/pp14.html" target="disp-area">14일차</a><a href="python/pp15.html" target="disp-area">15일차 </a></li>
+					-->
 				</ul>
 			</ul>
-			<ul>
+			<ul class="i_menu">
 				<h3 class="i_title"><a href="web_index.html" target="disp-area">생활코딩</h3>
 				<li><a href="web/1.html" target="disp-area">WEB1 - HTML</a></li>
 				<li><a href="web/2.html" target="disp-area">WEB2 - CSS</a></li>
@@ -47,7 +43,7 @@
 	</body>
 	<script>
 		var menu = document.querySelector('#menu');
-		var isOpen = false;
+		var isOpen = true;
 		menu.addEventListener("click", function(){
 			if (isOpen == false){
 				document.querySelector("#task").style.display = "block";

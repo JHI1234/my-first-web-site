@@ -58,7 +58,7 @@ li a{
 	margin : 0;
 	padding : 20px;
 }
-#grid #index ul{
+.i_menu{
 	background-color: #ffffff;
 	text-align: center;
 	border : 7px solid darkgray;
@@ -70,10 +70,17 @@ li a{
 #grid #index ul li{
 	font-size: 15pt;
 	text-align: left;
-	padding : 10px 0 0 10px;
+	padding-top : 10px;
+	list-style:none;
 }
 #task{
-	display:none;
+	display:block;
+	border: none; 
+	margin : 0; 
+	padding : 0;
+}
+#task a{
+	padding-left: 25px; 
 }
 #article{
 	padding-left : 40px;
@@ -100,7 +107,7 @@ table td{
 	padding: 20px;
 }
 ul a:hover{
-	color:#6844c9;
+	color:#8f7ac9;
 }
 tr td:hover{
 	color:#6844c9;
@@ -114,24 +121,22 @@ td a:hover{
 td a{
 	color : #6844c9;
 }
-p{
-	line-height: 130%;
+.desc_page{
+	margin:20px 0 30px 40px;
 }
-.desc-page{
-	margin:30px 0 0 40px;
-}
-.desc-list{
+.desc_list{
 	padding:0;
 	padding-left:30px;
 	line-height: 150%;
-	font-size: 13pt;
+	font-size: 12pt;
 }
-.desc-list > li{
+.desc_list > li{
 	font-weight: bold;
 	margin-top : 10px;
 }
-ol span{
-	text-indent: 10px;
+.desc_task{
+	display:inline-block;
+	margin-bottom:20px;
 }
 @media(max-width:500px){
 	#grid{

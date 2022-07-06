@@ -4,62 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>코뮤 파이썬 스터디 2일차</title>    
+    <title>코뮤 파이썬 스터디 3일차</title>    
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-    <div class="desc-page">
-        <h3>✔ 오늘의 과제 : 자료형 마스터! ✔</h3><hr> 
-        <div>
-            <h3>📝 개념 정리</h3>
-            <ol class="desc-list">
-                <li>변수(Virable)</li>
-                    <span>
-                        개념 : <b>데이터를 저장</b>하기 위해 컴퓨터 안에 만들어 놓은 메모리 공간<br>
-                        - 변수에 새로운 데이터를 대입하면 이전에 저장된 데이터는 사라지고 새로운 데이터가 저장됨.
-                    </span>
-                <li>자료형(Data type)</li>
-                    <div>
-                        개념 : 데이터의 형식<br>
-                        종류 : 문자열, 숫자(정수,실수), 리스트, 튜플, 딕셔너리, 집합 등<br>
-                        - 파이썬에서는 데이터의 자료형을 쉽게 알 수 있도록 돕는 type()이라는 함수를 제공함.<br>
-                    </div>
-                <li>숫자형</li>
-                    <div>
-                        종류 : <b>정수형(Integer type)</b>과 <b>실수형(Float type)</b>이 파이썬에서 대표적인 숫자 자료형임.
-                        - int는 정수형을, float은 실수형을 나타냄.
-                    </div>
-                <li>불 자료형 : 참(True)과 거짓(False)을 값으로 가지는 자료형 </li>
-                    <div>
-                        주의사항 : True와 False의 대소문자를 정확하게 작성하지 않을 시 오류가 발생함.
-                    </div>
-                <li>변수 이름 규칙</li>
-                    <ul>
-                        <li>변수 이름은 숫자로 시작할 수 없다.</li>
-                        <li>변수 이름에는 공백을 사용할 수 없다.</li>
-                        <li>예약어는 변수 이름으로 사용할 수 없다.</li>
-                        <li>변수 이름은 스네이크 케이스 규칙에 따라 짓는다.</li>
-                        <li>변수 이름은 저장할 데이터의 의미를 담아 짓는다.</li>
-                    </ul>
-            </ol>
-            <hr>
+    <div class="desc_page">
+        <hr><h3>✔ 3일차 오늘의 과제 : 자료형 마스터!</h3><hr>
+        <p>- 문자열, 정수, 실수, 불 자료형 변수를 하나씩 만들고 type()함수를 이용해 자료형 출력하기</p>
+        <div class="desc_task">
             <div style="float:left;">
                 <p>[코드]</p>
                 <div>
-                    <img style="width:70%;" src="../../images/pp2-1.png" ><br>
-                    <p>- 한번의 print()로 여러 줄을 출력하는 코드도 작성해보았다.</p>
-                    <img style="width:70%;" src="../../images/pp2-3.png" >
-                </div>    
-            </div>
-        </div>
-        <div style="float:left;">
-            <div style="width:50%;">
-                <p>[실행 결과]</p>
-                <div>
-                    <img src="../../images/pp2-2.png" >
+                    <img style="width:70%;" src="../../images/pp3-1.png"><br>
                 </div>
             </div>
-        </div>
+            <div style="float:left;">
+                <div style="width:50%;">
+                    <p>[실행 결과]</p>
+                    <div>
+                        <img src="../../images/pp3-2.png">
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+        <h3>📝 개념 정리</h3><hr>
+        <ol class="desc_list">
+            <li>변수(Variable)</li>
+            <div>
+                개념 : <b>데이터를 저장</b>하기 위해 컴퓨터 안에 만들어 놓은 <b>메모리 공간</b><br>
+                - 변수에 새로운 데이터를 대입하면 이전에 저장된 데이터는 사라지고 새로운 데이터가 저장됨.
+            </div>
+            <li>자료형(Data type)</li>
+            <div>
+                개념 : 데이터의 형식<br>
+                종류 : 문자열, 숫자(정수,실수), 리스트, 튜플, 딕셔너리, 집합 등<br>
+                - 파이썬에서는 데이터의 자료형을 쉽게 알 수 있도록 돕는 type()이라는 함수를 제공함.<br>
+            </div>
+            <li>숫자형</li>
+            <div>
+                종류 : <b>정수형(Integer type)</b>과 <b>실수형(Float type)</b>이 파이썬에서 대표적인 숫자 자료형임.<br>
+                - int는 정수형을, float은 실수형을 나타냄.
+            </div>
+            <li>불 자료형 : 참(True)과 거짓(False)을 값으로 가지는 자료형 </li>
+            <div>
+                주의사항 : True와 False의 대소문자를 정확하게 작성하지 않을 시 오류가 발생함.
+            </div>
+            <li>변수 이름 규칙</li>
+            <ul>
+                <li>변수 이름은 숫자로 시작할 수 없다.</li>
+                <li>변수 이름에는 공백을 사용할 수 없다.</li>
+                <li>예약어는 변수 이름으로 사용할 수 없다.</li>
+                <li>변수 이름은 스네이크 케이스 규칙에 따라 짓는다.</li>
+                <li>변수 이름은 저장할 데이터의 의미를 담아 짓는다.</li>
+            </ul>
+        </ol>
     </div>
 </body>
 </html>

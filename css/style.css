@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-family: 'LeferiPoint-SpecialItalicA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-	font-family: 'DungGeunMo';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'LeferiPoint-BlackObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'LeferiPoint-SpecialItalicA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +39,8 @@ h1{
 }
 h1 a {
 	color :#6740d1;
-	font-family:"LeferiPoint-SpecialItalicA";
+	font-family:"LeferiPoint-BlackObliqueA";
+	font-weight:100;
 }
 li a{
 	font-size: 11pt;
@@ -120,7 +121,7 @@ p{
 	line-height: 130%;
 }
 .desc-page{
-	margin:40px;
+	margin:30px 0 0 40px;
 }
 .desc-list{
 	padding:0;
@@ -128,9 +129,9 @@ p{
 	line-height: 150%;
 	font-size: 13pt;
 }
-.desc-title{
+.desc-list > li{
 	font-weight: bold;
-	margin-top : 15px;
+	margin-top : 10px;
 }
 ol span{
 	text-indent: 10px;

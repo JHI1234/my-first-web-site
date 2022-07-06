@@ -12,7 +12,8 @@
 			<h3 class="i_title"><a href="welcome.html" target="disp-area">Welcome👋</a></h3>
 			<ul>
 				<h3 class="i_title"><a href="https://cafe.naver.com/codeuniv" target="_blank">파이썬 스터디</h3>
-				<li><a href="python/p1.html" target="disp-area">과제 목록</a></li>
+				<li><a href="python/p1.html" target="disp-area">과제 목록</a>
+					<a id="menu" href="#" style="font-size:10pt;">◀️</a>
 				<ul id="task" style="border:none; list-style:disc; margin:0; margin-left:50px; padding : 0;">
 					<li><a href="python/pp0.html" target="disp-area">0일차 ✔</a></li>
 					<li><a href="python/pp1.html" target="disp-area">1일차 ✔</a></li>
@@ -44,4 +45,21 @@
 		</div>
 	</div>	
 	</body>
+	<script>
+		var menu = document.querySelector('#menu');
+		var isOpen = false;
+		menu.addEventListener("click", function(){
+			if (isOpen == false){
+				document.querySelector("#task").style.display = "block";
+				menu.innerHTML = "🔽"
+				isOpen = true;
+			}
+			else{
+				document.querySelector("#task").style.display = "none";
+				menu.innerHTML = "◀️"
+				isOpen = false;
+			}
+		});
+
+	</script>
 </html> 

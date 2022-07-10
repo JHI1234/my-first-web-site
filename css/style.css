@@ -90,6 +90,7 @@ li a{
 	margin : 0;
 	padding : 0;
 	padding-left : 40px;
+	padding-right : 40px;
 	line-height: 150%;
 }
 table{
@@ -137,6 +138,8 @@ td a{
 	margin-bottom:20px;
 }
 .what_img{
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
+	margin-top : 20px;
 	display: block;
 }

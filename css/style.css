@@ -53,12 +53,12 @@ li a{
 }
 #grid{
 	display:grid;
-	grid-template-columns: 210px 1fr;
+	grid-template-columns: 220px 1fr;
 	height : 100vh;
 }
 #grid #index{
 	background-color: rgb(223, 223, 248);
-	width : 210px;
+	width : 220px;
 	margin : 0;
 	padding : 0 20px 20px 20px;
 }

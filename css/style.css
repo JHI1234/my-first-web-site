@@ -64,7 +64,6 @@ li a{
 }
 .i_menu{
 	background-color: #ffffff;
-	text-align: center;
 	border : 7px solid darkgray;
 	border-radius: 10px;
 	list-style:none;
@@ -72,7 +71,7 @@ li a{
 	padding : 15px 10px;
 }
 #grid #index ul li{
-	font-size: 15pt;
+	font-size: 13pt;
 	text-align: left;
 	padding-top : 10px;
 	list-style:none;
@@ -84,7 +83,7 @@ li a{
 	padding : 0;
 }
 #task a{
-	padding: 20px; 
+	padding: 10px 10px 10px 15px; 
 }
 #article{
 	margin : 0;

@@ -14,8 +14,8 @@
 			<h3 style="text-align:center;"><a href="welcome.html" target="disp-area">Welcome👋</a></h3>
 			<ul class="i_menu">
 				<h3 class="i_title"><a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티 김변수<br> 파이썬 스터디 2기</h3>
-				<li><a style="margin-left:20px; font-weight:bold; font-size:11pt;" href="python/p1.html" target="disp-area">과제 목록</a> <a id="menu" href="#" style="font-size:10pt;">◀️</a>
-				<ul id="task" style="display:none;">
+				<li><a style="margin-left:20px; font-weight:bold; font-size:11pt;" href="python/p1.html" target="disp-area">과제 목록</a> <a id="menu" href="#" style="font-size:10pt;">🔽</a>
+				<ul id="task">
 					<div id="done" style="display:flex;">
 						<div style="flex:1;" >
 							<li><a href="python/pp0.html" target="disp-area">0일차</a></li>
@@ -60,7 +60,7 @@
 	</body>
 	<script>
 		var menu = document.querySelector('#menu');
-		var isOpen = false;
+		var isOpen = true;
 		menu.addEventListener("click", function(){
 			if (isOpen == false){
 				document.querySelector("#task").style.display = "block";

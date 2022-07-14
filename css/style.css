@@ -72,18 +72,14 @@ li a{
 }
 #grid #index ul li{
 	font-size: 13pt;
-	text-align: left;
 	padding-top : 10px;
 	list-style:none;
 }
 #task{
 	display:block;
-	border: none; 
-	margin : 0; 
-	padding : 0;
-}
-#task a{
-	padding: 10px 10px 10px 15px; 
+	border: none;
+	padding: 0;
+	text-align: center;
 }
 #article{
 	margin : 0;

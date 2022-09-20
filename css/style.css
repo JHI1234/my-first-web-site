@@ -41,10 +41,10 @@ h1 a {
 	font-weight:100;
 }
 li a{
-	font-size: 11pt;
+	font-size: 10pt;
 }
 .i_title{
-	font-size: 12pt;
+	font-size: 11pt;
 	text-align: center;
 	margin : 0;
 	padding : 0;
@@ -52,84 +52,38 @@ li a{
 	border-bottom: 1px solid gray;
 }
 #grid{
-	display:grid;
-	grid-template-columns: 220px 1fr;
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
 	height : 100vh;
 }
 #grid #index{
 	background-color: rgb(223, 223, 248);
-	width : 220px;
+	width : 170px;
 	margin : 0;
 	padding : 0 20px 20px 20px;
 }
 .i_menu{
 	background-color: #ffffff;
-	border : 7px solid darkgray;
+	border : 5px solid darkgray;
 	border-radius: 10px;
 	list-style:none;
-	margin : 10px;
+	margin : 0 12px 10px 12px;
 	padding : 15px 10px;
 }
 #grid #index ul li{
 	font-size: 13pt;
 	padding-top : 10px;
 	list-style:none;
+	text-align: center;
+	
 }
 #task{
 	display:block;
 	border: none;
 	padding: 0;
 	text-align: center;
-}
-#article{
-	margin : 0;
-	padding : 0;
-	padding-left : 40px;
-	line-height: 150%;
-}
-table{
-	border-spacing: 30px;
-	margin:20px auto;
-}
-table td{
-	text-align: center;
-	border-radius: 20px;
-	background-color: rgba(211, 208, 255, 0.76);
-	font-weight: normal;
-	font-size: 13pt;
-	padding: 20px;
-}
-ul a:hover{
-	color:#8f7ac9;
-}
-tr td:hover{
-	color:#6844c9;
-	background-color: #ffffff;
-	border: 1px solid #6844c9;
-}
-td a:hover{
-	color:#6844c9;
-	background-color: #ffffff;
-}
-td a{
-	color : #6844c9;
-}
-.desc_page{
-	margin:20px 100px 30px 100px;
-}
-.desc_list{
-	padding:0;
-	padding-left:30px;
-	line-height: 150%;
-	font-size: 12pt;
-}
-.desc_list > li{
-	font-weight: bold;
-	margin-top : 10px;
-}
-.desc_task{
-	display:inline-block;
-	margin-bottom:20px;
+
 }
 .what_img{
 	width: 80%;
@@ -137,10 +91,11 @@ td a{
 	margin-top : 20px;
 	display: block;
 }
-.Q_div{
-	float:left;
-	margin-right:50px;
+#article{
+	margin : 40px;
+	padding : 0;
+	line-height: 150%;
 }
-.A_div{
-	float:left;
+#view{
+	flex-grow: 1;
 }

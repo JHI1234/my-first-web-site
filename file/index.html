@@ -7,15 +7,22 @@
 	</head>         
 	<body>
 	<header>
-		<h1><a href="index.html">HI, there!</a></h1>
+		<h1><a href="welcome.html" target="disp-area">:D</a></h1>
 	</header>
 	<div id="grid">
 		<div id="index">
 			<h3 style="text-align:center;"><a href="welcome.html" target="disp-area">Welcome👋</a></h3>
 			<ul class="i_menu">
-				<h3 class="i_title"><a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티 김변수<br> 파이썬 스터디 2기</h3>
-				<li><a style="margin-left:20px; font-weight:bold; font-size:11pt;" href="python/p1.html" target="disp-area">과제 목록</a> <a id="menu" href="#" style="font-size:10pt;">🔽</a>
-				<ul id="task">
+				<h3 class="i_title">Personal</h3>
+					<li><a href="http://l.bsks.ac.kr/~p202206011/index.html" target="_blank">JavaScript</a></li>
+					<li><a href="#" target="_blank">TypeScript</a></li>
+					<li><a href="http://l.bsks.ac.kr/~p202206011//php/index.html" target="_blank">PHP</a></li>
+					
+			</ul>
+			<ul class="i_menu">
+				<h3 class="i_title">코뮤니티<br> 파이썬 스터디</h3>
+				<li><a style=" font-weight:bold; font-size:10pt;" href="python/p1.html" target="disp-area">과제 목록</a>
+				<!-- <ul id="task" style="display:none;">
 					<div id="done" style="display:flex;">
 						<div style="flex:1;" >
 							<li><a href="python/pp0.html" target="disp-area">0일차</a></li>
@@ -39,40 +46,18 @@
 						</div>
 	
 					</div>
-					<!--
-
-					<li><a href="python/pp12.html" target="disp-area">12일차</a><a href="python/pp13.html" target="disp-area">13일차 </a></li>
-					<li><a href="python/pp14.html" target="disp-area">14일차</a><a href="python/pp15.html" target="disp-area">15일차 </a></li>
-					-->
-				</ul>
+				</ul> -->
 			</ul>
 			<ul class="i_menu">
 				<h3 class="i_title"><a href="web_index.html" target="disp-area">생활코딩</h3>
-				<li><a href="web/1.html" target="disp-area">WEB1 - HTML</a></li>
-				<li><a href="web/2.html" target="disp-area">WEB2 - CSS</a></li>
-				<li><a href="web/3.html" target="disp-area">WEB2 - JavaScript</a></li>
+				<li><a href="web/1.html" target="disp-area">HTML</a></li>
+				<li><a href="web/2.html" target="disp-area">CSS</a></li>
+				<li><a href="web/3.html" target="disp-area">JavaScript</a></li>
 			</ul>
 		</div>
-		<div id="article">
-			<iframe src="python/p1.html" name="disp-area" width=100% height=100%></iframe>
+		<div id="view">
+			<iframe src="welcome.html" name="disp-area" width=100% height=100%></iframe>
 		</div>
 	</div>	
 	</body>
-	<script>
-		var menu = document.querySelector('#menu');
-		var isOpen = true;
-		menu.addEventListener("click", function(){
-			if (isOpen == false){
-				document.querySelector("#task").style.display = "block";
-				menu.innerHTML = "🔽"
-				isOpen = true;
-			}
-			else{
-				document.querySelector("#task").style.display = "none";
-				menu.innerHTML = "◀️"
-				isOpen = false;
-			}
-		});
-
-	</script>
 </html> 

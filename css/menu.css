@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin : 0;
+	padding : 0;
+	font-family: 'NEXON Lv1 Gothic OTF';
+}
+header{
+	width: 100%;
+}
+a{
+	color : black;
+	text-decoration : none;
+}
+h1{
+	background-color: rgb(183, 183, 253);
+	font-size:40px;
+	text-align:left;
+	margin:0 auto;
+	padding:20px 20px 0 20px;
+}
+h1 a {
+	color :#6740d1;
+	font-family:"LeferiPoint-SpecialItalicA";
+	font-weight:100;
+}
+li a{
+	font-size: 11pt;
+}
+table{
+	border-spacing: 30px;
+	margin:20px auto;
+}
+table td{
+	text-align: center;
+	border-radius: 20px;
+	background-color: rgba(211, 208, 255, 0.76);
+	font-weight: normal;
+	font-size: 13pt;
+	padding: 20px;
+}
+ul a:hover{
+	color:#8f7ac9;
+}
+tr td:hover{
+	color:#6844c9;
+	background-color: #ffffff;
+	border: 1px solid #6844c9;
+}
+td a:hover{
+	color:#6844c9;
+	background-color: #ffffff;
+}
+td a{
+	color : #6844c9;
+}
+.desc_page{
+	margin:20px 100px 30px 100px;
+}
+.desc_list{
+	padding:0;
+	padding-left:30px;
+	line-height: 150%;
+	font-size: 12pt;
+}
+.desc_list > li{
+	font-weight: bold;
+	margin-top : 10px;
+}
+.desc_task{
+	display:inline-block;
+	margin-bottom:20px;
+}
+.what_img{
+	width: 80%;
+	margin: 0 auto;
+	margin-top : 20px;
+	display: block;
+}
+.Q_div{
+	float:left;
+	margin-right:50px;
+}
+.A_div{
+	float:left;
+}
+#article{
+	margin : 40px;
+	padding : 0;
+	line-height: 150%;
+}

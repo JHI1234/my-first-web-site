@@ -20,18 +20,6 @@ a{
 	color : black;
 	text-decoration : none;
 }
-h1{
-	background-color: rgb(183, 183, 253);
-	font-size:40px;
-	text-align:left;
-	margin:0 auto;
-	padding:20px 20px 0 20px;
-}
-h1 a {
-	color :#6740d1;
-	font-family:"LeferiPoint-SpecialItalicA";
-	font-weight:100;
-}
 li a{
 	font-size: 11pt;
 }
@@ -42,25 +30,26 @@ table{
 table td{
 	text-align: center;
 	border-radius: 20px;
-	background-color: rgba(211, 208, 255, 0.76);
+	background-color: #5fa77f;
+	color:#5fa77f;
 	font-weight: normal;
-	font-size: 13pt;
+	font-size: 11pt;
 	padding: 20px;
 }
 ul a:hover{
-	color:#8f7ac9;
+	color:#5fa77f;
 }
-tr td:hover{
-	color:#6844c9;
+tr tds:hover{
+	color:#5fa77f;
 	background-color: #ffffff;
-	border: 1px solid #6844c9;
+	border: 1px solid #5fa77f;
 }
-td a:hover{
-	color:#6844c9;
+tr td a:hover{
+	color:#5fa77f;
 	background-color: #ffffff;
 }
 td a{
-	color : #6844c9;
+	color : #ffffff;
 }
 .desc_page{
 	margin:20px 100px 30px 100px;
